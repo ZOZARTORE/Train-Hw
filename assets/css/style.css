@@ -1,0 +1,71 @@
+/*Stylesheet*/
+
+header {
+	width: 100%;
+	height: 90px;
+	background-color: #337ab7;
+}
+
+header h1 {
+	font-size: 45px;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+
+body {
+	background-image: url('../images/background.jpg');
+	background-attachment: cover;
+	font-family: Arial, Helvetica, Times;
+
+}
+
+.container {
+	width: 70%;
+	background-color: #fff;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+#tableContainer {
+	margin: auto;
+
+}
+
+table {
+	width: 90%;
+	margin: auto;
+}
+
+th {
+	text-decoration: none;
+}
+td {
+	text-align: center;
+}
+
+h2 {
+	height: 50px;
+	font-size: 30px;
+	color: #fff;
+	background-color: #337ab7;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+#formContainer {
+	margin: auto;
+}
+
+form {
+	width: 90%;
+	margin: auto;
+}
+
+#employeeInput input {
+	width: 100%;
+}
+
+#employeeInput label {
+	padding-top: 10px;
+}

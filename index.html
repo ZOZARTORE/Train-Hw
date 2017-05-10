@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Train Data</title>
+	<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+</head>
+
+<header>
+	<h1>Train Data Management</h1>	
+</header>
+
+<body>
+	<div id="mainContainer">
+		<div class="container" id="tableContainer">	
+			<h2>Train Data Management</h2>
+
+			<table class="trainData">
+				<tr>
+					<th>Train</th>
+					<th>Destination</th>
+					<th>Starting Time</th>
+					<th>Frequency</th>
+					<th>Next Arrival</th>
+				</tr>
+			</table>		
+		</div>
+
+		<div class="container" id="formContainer">
+			<h2>Add Train</h2>
+			<form id="trainInput">
+				<label for="nameInput">Train Name</label>
+				<input type="text" id="nameInput"><br><br>
+
+				<label for="destinationInput">Destination</label>
+				<input type="text" id="destinationInput"><br><br>
+
+				<label for="startInput">Start Time</label>
+				<input type="text" id="startInput"><br><br>
+
+				<label for="frequency">frequency(in minutes)</label>
+				<input type="text" id="frequencyInput"><br><br>
+				<button class="submitBtn" type="submit">Submit</button>
+			</form>
+		</div>		
+	</div>
+	<script src="assets/js/logic.js"></script>
+</body>
+</html>
